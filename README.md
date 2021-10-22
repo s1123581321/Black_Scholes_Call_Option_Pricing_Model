@@ -7,4 +7,4 @@ The maturity is assumed to be the day after the end of the data provided.
 The code will output a csv file with all the quantities calculated including the call option price for each data point.
 To run the code from a command line in a q environment execute the following commands:
 \l option_pricing.q
-f `<filename>;<time period for variance>;<risk free interest rate>;<strike price>
+f `filename ; time period for variance ; risk free interest rate ; strike price
