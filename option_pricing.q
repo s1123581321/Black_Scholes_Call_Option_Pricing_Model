@@ -58,5 +58,5 @@ CDF_function:{[fLd1];
 
 /Final function to calculate the call option price
 price_function:{[fdata];
-	fdata[`Nd1]*fdata[`S]-fdata[`Nd2]*fdata[`K]*exp[-1*fdata[`r]*fdata[`t]]
+	(fdata[`Nd1]*fdata[`S])-fdata[`Nd2]*fdata[`K]*exp[-1*fdata[`r]*fdata[`t]]
  }
