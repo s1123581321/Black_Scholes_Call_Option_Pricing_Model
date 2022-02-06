@@ -1,5 +1,5 @@
 # Black_Scholes_Call_Option_Pricing_Model
-A Black Scholes call equity option pricing model I coded in q.
+A Black Scholes call equity option pricing model written in q.
 Note the data file must be only daily stock price on each line of the file and nothing more.
 I have also included an example of the stock price and option price for Hargreaves Lansdown stock with a period of 90 days, a constant risk free interest rate of 2% and a strike price of £13.
 The maturity is assumed to be the day after the end of the data provided.
